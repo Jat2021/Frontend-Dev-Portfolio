@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300..900&display=swap');
+
+:root {
+    /** TYPOGRAPHY **/
+    --font-family: 'Figtree';
+
+    --type-base-font: 16px;
+    
+    /* Typee Scales (1.2 scale) */
+    --type-lvl-sub3: 0.500rem;
+    --type-lvl-sub2: 0.562rem;
+    --type-lvl-sub1: 0.688rem;
+    --type-lvl-base: 1rem;
+    --type-lvl-1: 1.20rem;
+    --type-lvl-2: 1.44rem;
+    --type-lvl-3: 1.73rem;
+    --type-lvl-4: 2.08rem;
+    --type-lvl-5: 2.50rem;
+    --type-lvl-6: 3rem;
+    --type-lvl-7: 3.60rem;
+    --type-lvl-8: 4.32rem;
+
+    /* Font Weights */
+    --type-fw-light: 300;
+    --type-fw-regular: 400;
+    --type-fw-medium: 500;
+    --type-fw-semibold: 600;
+    --type-fw-bold: 700;
+    --type-fw-extrabold: 800;
+    --type-fw-black: 900;
+
+    /** COLOR PALETTE **/
+    
+    /* Blue */
+    --clr-blue-950: #030E16;
+    --clr-blue-900: #061B2D;
+    --clr-blue-800: #0D3759;
+    --clr-blue-700: #125082;
+    --clr-blue-600: #196BAE;
+    --clr-blue-500: #1F86DB;
+    --clr-blue-400: #489EE5;
+    --clr-blue-300: #75B6EB;
+    --clr-blue-200: #A6D0F2;
+    --clr-blue-100: #D2E7F9;
+    --clr-blue-50: #E9F3FC;
+    --clr-blue-25: #EDF6FC;
+
+    /* Neutral */
+    --clr-neutral-950: #040506;
+    --clr-neutral-900: #060709;
+    --clr-neutral-800: #0F1115;
+    --clr-neutral-700: #15191E;
+    --clr-neutral-600: #1E222A;
+    --clr-neutral-500: #242A33;
+    --clr-neutral-400: #485466;
+    --clr-neutral-300: #6A7B95;
+    --clr-neutral-200: #9CA8B9;
+    --clr-neutral-100: #CCD2DB;
+    --clr-neutral-50: #E7EAEE;
+    --clr-neutral-25: #F3F4F7;
+
+    --clr-white-0: #ffffff;
+
+    /* Semantic Colors */
+    --clr-primary: var(--clr-blue-500);
+    --clr-primary-lighter: var(--clr-blue-400);
+    --clr-primary-contrast: var(--clr-white-0);
+    --clr-primary-overlay: hsla(208,76,10,80%);
+
+    --clr-base: var(--clr-neutral-500);
+
+    /* Surface */
+    --clr-surface-lvl-0: var(--clr-white-0);
+    --clr-surface-lvl-1: var(--clr-neutral-25);
+    --clr-surface-lvl-2: var(--clr-neutral-50);
+    --clr-surface-lvl-3: var(--clr-neutral-100);
+    --clr-surface-contrast: var(--clr-neutral-500);
+
+    /* Texts & icons */
+    --clr-onPrimary: var(--clr-white-0);
+    --clr-onPrimary-contrast:var(--clr-neutral-500);
+    --clr-onSurface: var(--clr-neutral-500);
+    
+    --clr-onSurface-subtle: var(--clr-neutral-300);
+    --clr-onSurface-variant: var(--clr-blue-800);
+    --clr-onSurface-contrast: var(--clr-white-0);
+    
+}
